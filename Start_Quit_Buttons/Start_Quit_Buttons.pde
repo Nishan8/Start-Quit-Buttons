@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 Boolean start=false, noNowReallyStart=false;
-int  quitButtonX, quitButtonY, quitButtonWidth, QuitButtonHeight;
+int  quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
 void setup() 
 {
@@ -9,14 +9,19 @@ void setup()
   //fullScreen(); //displayWidth, displayHeight
   appWidth = width;
   appHeight = height;
-  
+  //
+  //Population
+    quitButtonX = ; 
+    quitButtonY = ; 
+    quitButtonWidth = ; 
+    quitButtonHeight = ;
 } //End setup
 //
 void draw()
 {
   if ( noNowReallyStart==true ) { //Actual start IF
   background(0); //Night Mode not considered yet
-  rect( quitButtonX, quitButtonY, quitButtonWidth, QuitButtonHeight ); //Quit Button
+  rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight ); //Quit Button
   } //End If-Start
   //
 } //End draw
