@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 Boolean start=false, noNowReallyStart=false;
-int  quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
+float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
 void setup() 
 {
@@ -13,10 +13,10 @@ void setup()
   //Population
   float centerX = appWidth * 1/2; //Point
   float centerY = appHeight * 1/2; //Point 
- quitButtonX = appWidth ; 
-    quitButtonY = appHeight ; 
-    quitButtonWidth = appWidth ; 
-    quitButtonHeight = appHeight ;
+  quitButtonX = centerX - (appWidth * 1/4 ) ; 
+  quitButtonY = centerY - ( appHeight * 1/4) ; 
+  quitButtonWidth = appWidth * 1/2 ; //Line not point, thus use formula
+  quitButtonHeight = appHeight *  1/2 ; //Line not point, thus use formula 
 } //End setup
 //
 void draw()
@@ -46,6 +46,9 @@ void mousePressed()
   start = true;
   println("To Start, Press the Space Bar");
   // 
+  //Quit Button: Logical Rectangle, see println in draw()
+  if () exit();
+  //
 } //End mousePressed
 //
 //End Main Program
