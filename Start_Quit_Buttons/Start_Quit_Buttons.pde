@@ -11,10 +11,12 @@ void setup()
   appHeight = height;
   //
   //Population
-    quitButtonX = ; 
-    quitButtonY = ; 
-    quitButtonWidth = ; 
-    quitButtonHeight = ;
+  float centerX = appWidth * 1/2; //Point
+  float centerY = appHeight * 1/2; //Point 
+ quitButtonX = appWidth ; 
+    quitButtonY = appHeight ; 
+    quitButtonWidth = appWidth ; 
+    quitButtonHeight = appHeight ;
 } //End setup
 //
 void draw()
