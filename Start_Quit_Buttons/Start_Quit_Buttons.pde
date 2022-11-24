@@ -16,9 +16,10 @@ void setup()
 //
 void draw()
 {
+  debugLogicalRect();
   if ( noNowReallyStart==true ) { //Actual start IF
-   
-  } //End IF-STart
+   programDraw();
+  } //End IF-Start
   //
 } //End draw
 //
