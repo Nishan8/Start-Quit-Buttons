@@ -27,6 +27,7 @@ void keyPressed()
 {
   //User Initiated Start Screen
   if ( key==' ' && start==true ) noNowReallyStart = true;
+   if ( keyCode == UP && start==true ) noNowReallyStart = true;
   //
  keyBoardShortCuts();
 } //End keyPressed
