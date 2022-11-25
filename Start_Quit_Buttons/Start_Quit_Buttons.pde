@@ -6,7 +6,7 @@ color quitButtonColour, green=#7AFF00 , blue=#0034EA ;
 //
 void setup()
 {
-  size (400, 300); //Landscape
+  size (500, 400); //Landscape
   //fullScreen(); //displayWidth, displayHeight
   displayOrientation();
   appWidth = width; 
