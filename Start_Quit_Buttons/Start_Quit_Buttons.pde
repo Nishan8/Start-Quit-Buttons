@@ -12,6 +12,13 @@ void setup()
   appWidth = width; 
   appHeight = height;
   population();
+  //Rectangle and text before start up
+  fill(1);
+rect(1, 1, 1440, 2560);
+textSize(44);
+fill(0, 408, 612, 816);
+text("Press 'space' to start", 25, 200);  // Default depth, no z-value specified
+//Rectangle and Text End before start up
 } //End setup
 //
 void draw()
